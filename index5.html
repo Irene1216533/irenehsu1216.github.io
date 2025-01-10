@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>徒步環島彩繪布條</title>
+
+    <style>
+      body {
+        margin: 0;
+        background-image: url("image/img01.jpg");
+      }
+
+      #container {
+        width: 1200px;
+        margin: 0 auto;
+      }
+
+      #menu {
+        background-image: url("image/img01.jpg");
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+      }
+
+      #menu .logo {
+        height: 45px;
+      }
+
+      #menu ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      #menu ul li {
+        margin: 0 10px;
+      }
+
+      #menu ul li a {
+        color: #069;
+        text-decoration: none;
+        font-family: "微軟正黑體";
+        font-size: 18px;
+        font-weight: bolder;
+        padding: 11px 15px;
+      }
+
+      #menu ul li a:hover {
+        color: #e5a65f;
+      }
+
+      #banner {
+        background-image: url("image/img02.png");
+        background-repeat: repeat-x;
+        height: 360px;
+      }
+
+      .title {
+        float: left;
+        width: 400px;
+        padding: 50px 0 0 50px;
+      }
+
+      .title01 {
+        font-family: "微軟正黑體";
+        color: #fff;
+        font-size: 50px;
+        font-weight: bolder;
+      }
+
+      .title02 {
+        font-family: "微軟正黑體";
+        color: #fff;
+        padding-left: 10px;
+        font-size: 15px;
+      }
+
+      #main {
+        background-image: url("image/img07.jpg");
+        background-repeat: repeat-x;
+      }
+
+      #sentense {
+        background-image: url("image/drawing-bg.jpg");
+        height: 940px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 50px 20px;
+      }
+
+      .drawing {
+        padding: 20px;
+      }
+
+      .drawing img {
+        width: 211px;
+        height: 425px;
+      }
+
+      .drawing2 img {
+        width: 400px;
+      }
+
+      .drawing3 {
+        margin-top: 20px;
+        font-family: "微軟正黑體";
+        color: #fff;
+        letter-spacing: 3px;
+        line-height: 1.8;
+        max-width: 600px;
+      }
+
+      .footer {
+        width: 100%;
+        height: 150px;
+        color: #fff;
+        background-color: #174260;
+        text-align: right;
+        padding: 30px;
+        font-family: "微軟正黑體";
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <nav id="menu">
+          <!-- LOGO 放在左上角 -->
+          <a href="index2.html">
+            <img src="image/logo-08.jpg" alt="Logo" class="logo"
+          /></a>
+          <ul>
+            <li><a href="index3.html">成員介紹</a></li>
+            <li><a href="index4.html">路線地圖</a></li>
+            <li><a href="index7.html">日記短文</a></li>
+            <li><a href="index5.html">布條彩繪</a></li>
+            <li><a href="index6.html">旅遊繪畫</a></li>
+          </ul>
+        </nav>
+        <div id="banner">
+          <div class="title">
+            <h1 class="title01">Wal客<br />徒步環島</h1>
+            <p class="title02">給十八歲的自己，一個成年禮。</p>
+          </div>
+        </div>
+      </header>
+      <main id="main">
+        <div id="sentense">
+          <div class="drawing">
+            <img src="image/img16.jpg" alt="圖片1" />
+          </div>
+          <div class="drawing">
+            <img src="image/img15.jpg" alt="圖片2" />
+          </div>
+          <div class="drawing">
+            <img src="image/img12.jpg" alt="圖片3" />
+          </div>
+          <div class="drawing">
+            <img src="image/img14.jpg" alt="圖片4" />
+          </div>
+          <div class="drawing2">
+            <img src="image/img13.jpg" alt="圖片5" />
+          </div>
+          <div class="drawing3">
+            <p>
+              不要想太多，出門後跟實際上狀況會差很多，所以只要帶著行李出門就對了！
+              缺什麼路上都可以買，生病可以找診所、危險找警察局、行李太重找便利商店寄回家。
+              環島只是換個地方生活，沒有想像中困難。
+            </p>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="footer">
+          <p>IG：walguest_18ywalktaiwan</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

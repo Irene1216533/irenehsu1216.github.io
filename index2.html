@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>徒步環島首頁</title>
+
+    <style type="text/css">
+      body {
+        margin: 0px;
+        background-image: url("img01");
+      }
+
+      #container {
+        width: 1200px;
+        height: 1600px;
+        margin: 0 auto;
+      }
+
+      #menu {
+        background-image: url("image/img01.jpg");
+        height: 50px;
+        text-align: right;
+        position: relative; /* 使 img 可以相對於 #menu 定位 */
+      }
+
+      #menu img.menu1 {
+        position: absolute;
+        left: 10px; /* 控制 LOGO 距離左邊的距離 */
+        top: 50%; /* 垂直居中 LOGO */
+        transform: translateY(-50%); /* 調整 LOGO 的垂直位置 */
+      }
+
+      #menu ul {
+        padding: 1px;
+        margin: 1px;
+      }
+
+      #menu ul li {
+        display: inline-block;
+        list-style-type: none;
+      }
+
+      #menu ul li a {
+        color: #069;
+        text-decoration: none;
+        font-family: "微軟正黑體";
+        height: 27px;
+        font-size: 18px;
+        float: right;
+        padding: 11px 15px;
+        font-style: normal;
+        font-weight: bolder;
+      }
+
+      #menu ul li a:hover {
+        color: #e5a65f;
+        font-weight: bolder;
+      }
+
+      #banner {
+        background-image: url("image/img02.png");
+        background-repeat: repeat-x;
+        height: 360px;
+        weight: 1200px;
+      }
+
+      .title {
+        float: left;
+        width: 400px;
+        padding: 50px 0px 0px 50px;
+      }
+
+      .title01 {
+        font-family: "微軟正黑體";
+        color: #fff;
+        font-size: 50px;
+        font-weight: bolder;
+      }
+
+      .title02 {
+        font-family: "微軟正黑體";
+        color: #fff;
+        padding: 0px 0px 0px 10px;
+        font-size: 15px;
+      }
+
+      #main {
+        height: auto;
+        background-image: url("image/img07.jpg");
+        background-repeat: repeat-x;
+      }
+
+      #sentense {
+        background-image: url("image/welcome1.jpg");
+        height: 1600px;
+      }
+
+      .sttitle {
+        padding: 400px 100px;
+      }
+
+      .sttitle01 {
+        font-family: "微軟正黑體";
+        color: #fff;
+        font-size: 50px;
+        font-weight: bolder;
+        weight: 800px;
+        text-shadow: 2px 2px 2px #999;
+      }
+
+      .sttitle02 {
+        font-family: "微軟正黑體";
+        color: #000;
+        font-size: 20px;
+        font-weight: inherit;
+      }
+
+      .footer p {
+        text-align: right;
+        font-family: "微軟正黑體";
+        padding: 90px;
+        font-size: 20px;
+      }
+
+      .footer {
+        width: 1200px;
+        height: 150px;
+        color: #fff;
+        background-color: #174260;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <nav id="menu">
+          <a href="index2.html">
+            <img
+              class="menu1"
+              src="image/logo-08.jpg"
+              width="130"
+              height="45"
+              alt=""
+          /></a>
+          <ul>
+            <li><a href="index3.html">成員介紹</a></li>
+            <li><a href="index4.html">路線地圖</a></li>
+            <li><a href="index7.html">日記短文</a></li>
+            <li><a href="index5.html">布條彩繪</a></li>
+            <li><a href="index6.html">旅遊繪畫</a></li>
+          </ul>
+        </nav>
+        <div id="banner">
+          <div class="title">
+            <h1 class="title01">Wal客<br />徒步環島</h1>
+            <p class="title02">給十八歲的自己，一個成年禮。</p>
+          </div>
+        </div>
+      </header>
+      <main id="main">
+        <div id="sentense">
+          <div class="sttitle">
+            <h1 class="sttitle01">為什麼叫「Wal客」？</h1>
+            <p class="sttitle02">
+              Wal意思是“Wal”dorf(華德福)
+              學生Walk台灣。"客"用意是我們歡迎每個想跟我們一起徒步的你們，跟我們走一段路，跟你們聊天擦出不同火花。
+            </p>
+            <br /><br /><br />
+            <h1 class="sttitle01">為何想徒步環島？</h1>
+            <p class="sttitle02">
+              「都市人習慣快、習慣規律、習慣照著規則走，但這樣對於人生真的比較有效率嗎？難道節奏慢學到的東西會更少嗎？」<br /><br />
+              在華德福的課程總是讓我們意識到除了課本以外更重要的事，在學校每年兩周的「探索與挑戰」課程中，總是讓我們感受更加深刻。高一時我們在海上滑著獨木舟並在石雨傘海岸搭帳篷生活，又到了光合作用農場種了一整周的地瓜。高二在秀姑巒溪出海口體驗了以天為被以岩石為床的「野生活」，同時跟著隔壁海岸部落的阿美族人講述著族裡的歷史及他們的飲食文化。高三，我們將結合高一的獨木舟以及高二的漁業探索，到澎湖滑獨木舟跳島生活。<br /><br />
+              每一年中短短的兩周課程，學到的量卻是平常在書本中還多。這些課程明明是與充滿知識的大城市隔得遠遠的，確能感受到並解答心中那麼深的疑問？思考了許久才總結出他們的共同點，我們在那兩周內都試著慢下腳步，細細的觀察並思考生活周遭的任何事物，比起無腦的在繁忙的城市，回到最原先的環境樣貌，慢下來，才能試著將每件複雜的事學習的更徹底。<br /><br />
+              身邊周遭有太多事情因繁忙而被我們忽略，知識無法真正進入「心裡」、忘記如何「生活」，最重要的是我們不了解自己要的是什麼，我喜歡什麼？未來想做什麼？社會中有什麼環境適合我？<br /><br />到了高三時的一次講座我們聽到了關於台灣的朝聖之路－－環島，成為了我們想徒步環島的契機，希望能送給十八歲的自己一個特別的成年禮。
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <div class="footer">
+          <p>IG：walguest_18ywalktaiwan</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>徒步環島路線地圖</title>
+
+    <style type="text/css">
+      body {
+        margin: 0px;
+        background-image: url("img01");
+      }
+
+      #container {
+        width: 1200px;
+        height: 1600px;
+        margin: 0 auto;
+      }
+
+      #menu {
+        background-image: url("image/img01.jpg");
+        height: 50px;
+        text-align: right;
+        position: relative; /* 使logo能夠定位 */
+      }
+
+      #menu ul {
+        padding: 1px;
+        margin: 1px;
+      }
+
+      #menu ul li {
+        display: inline-block;
+        list-style-type: none;
+      }
+
+      #menu ul li a {
+        color: #069;
+        text-decoration: none;
+        font-family: "微軟正黑體";
+        height: 27px;
+        font-size: 18px;
+        float: right;
+        padding: 11px 15px;
+        font-style: normal;
+        font-weight: bolder;
+      }
+
+      #menu ul li a:hover {
+        color: #e5a65f;
+        font-weight: bolder;
+      }
+
+      #menu .logo {
+        position: absolute;
+        left: 10px; /* 調整logo位置 */
+        top: 50%; /* 垂直居中 */
+        transform: translateY(-50%); /* 垂直居中 */
+      }
+
+      #banner {
+        background-image: url("image/img02.png");
+        background-repeat: repeat-x;
+        height: 360px;
+        weight: 1200px;
+      }
+
+      .title {
+        float: left;
+        width: 400px;
+        padding: 50px 0px 0px 50px;
+      }
+
+      .title01 {
+        font-family: "微軟正黑體";
+        color: #fff;
+        font-size: 50px;
+        font-weight: bolder;
+      }
+
+      .title02 {
+        font-family: "微軟正黑體";
+        color: #fff;
+        padding: 0px 0px 0px 10px;
+        font-size: 15px;
+      }
+
+      #main {
+        height: auto;
+        background-color: #f3f3f3;
+        background-repeat: repeat-x;
+      }
+
+      .footer p {
+        text-align: right;
+        font-family: "微軟正黑體";
+        padding: 90px;
+        font-size: 20px;
+      }
+
+      .footer {
+        width: 1200px;
+        height: 150px;
+        color: #fff;
+        background-color: #174260;
+        float: left;
+      }
+
+      .map {
+        width: 270px;
+        float: left;
+      }
+
+      .map1 {
+        width: 260px;
+        float: left;
+        padding: 80px 0px 0px 65px;
+        font-family: "微軟正黑體";
+      }
+
+      .map2 {
+        width: 270px;
+        float: right;
+        padding: 80px 0px 0px 65px;
+        font-family: "微軟正黑體";
+      }
+
+      .aaa02 {
+        color: #d18852;
+        font-family: "微軟正黑體";
+        font-size: 50px;
+      }
+      .aaa02:hover {
+        color: #1c1e86;
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <nav id="menu">
+          <a href="index2.html">
+            <img
+              class="logo"
+              src="image/logo-08.jpg"
+              width="130"
+              height="45"
+              alt=""
+          /></a>
+          <ul>
+            <li><a href="index3.html">成員介紹</a></li>
+            <li><a href="index4.html">路線地圖</a></li>
+            <li><a href="index7.html">日記短文</a></li>
+            <li><a href="index5.html">布條彩繪</a></li>
+            <li><a href="index6.html">旅遊繪畫</a></li>
+          </ul>
+        </nav>
+        <div id="banner">
+          <div class="title">
+            <h1 class="title01">地圖<br />走過的路</h1>
+            <p class="title02">給十八歲的自己，一個成年禮。</p>
+          </div>
+        </div>
+      </header>
+
+      <main id="main">
+        <div class="map1">
+          <a href="index7.html"> <h1 class="aaa02">北部</h1></a>
+          <p>出發時快放棄的衝動，難熬的前幾天</p>
+          <div>
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          </div>
+          <a href="index7.html"> <h1 class="aaa02">南部</h1></a>
+          <p>台灣的人情味不是說假的，在南部特別能見識到。</p>
+        </div>
+        <div class="map">
+          <img src="image/img08.png" width="600" height="1128" alt="" />
+        </div>
+
+        <div>
+          <div class="map2">
+            <a href="index7.html"> <h1 class="aaa02">東北部</h1></a>
+            <p>
+              又來到大城市，漸漸接近北部市區的繁忙感，繞過危險的蘇花公路是環島唯一的遺憾。
+            </p>
+            <div>
+              <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            </div>
+            <a href="index7.html"> <h1 class="aaa02">南部</h1></a>
+            <p>從南迴出來看到的藍色大海覺得特別感動。</p>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <div class="footer">
+          <p>IG：walguest_18ywalktaiwan</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

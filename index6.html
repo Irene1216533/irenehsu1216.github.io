@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>徒步環島旅遊繪畫</title>
+
+    <style>
+      body {
+        margin: 0;
+        background-image: url("image/img01.jpg");
+      }
+
+      #container {
+        width: 1200px;
+        margin: 0 auto;
+      }
+
+      #menu {
+        background-image: url("image/img01.jpg");
+        height: 50px;
+        display: flex;
+        align-items: center; /* 垂直置中對齊 */
+        justify-content: space-between; /* LOGO 和選單兩側對齊 */
+        padding: 0 20px; /* 增加內邊距 */
+      }
+
+      #menu .logo {
+        height: 45px;
+      }
+
+      #menu ul {
+        display: flex; /* 水平排列選單 */
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      #menu ul li {
+        margin: 0 10px;
+      }
+
+      #menu ul li a {
+        color: #069;
+        text-decoration: none;
+        font-family: "微軟正黑體";
+        font-size: 18px;
+        font-weight: bolder;
+        padding: 11px 15px;
+      }
+
+      #menu ul li a:hover {
+        color: #e5a65f;
+      }
+
+      #banner {
+        background-image: url("image/img02.png");
+        background-repeat: repeat-x;
+        height: 360px;
+        width: 100%;
+      }
+
+      .title {
+        float: left;
+        width: 400px;
+        padding: 50px 0 0 50px;
+      }
+
+      .title01 {
+        font-family: "微軟正黑體";
+        color: #fff;
+        font-size: 50px;
+        font-weight: bolder;
+      }
+
+      .title02 {
+        font-family: "微軟正黑體";
+        color: #fff;
+        padding-left: 10px;
+        font-size: 15px;
+      }
+
+      #main {
+        background-image: url("image/img07.jpg");
+        background-repeat: repeat-x;
+      }
+
+      #sentense {
+        background-image: url("image/traveldraw-bg.jpg");
+        height: 1950px;
+      }
+
+      .footer {
+        width: 100%;
+        height: 150px;
+        color: #fff;
+        background-color: #174260;
+        text-align: right;
+        font-family: "微軟正黑體";
+        padding: 30px;
+        font-size: 20px;
+      }
+
+      .traveldraw {
+        width: 380px;
+        padding: 150px 10px 10px 10px;
+        float: left;
+      }
+      .traveldraw1 {
+        width: 380px;
+        padding: 150px 10px 10px 10px;
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <nav id="menu">
+          <!-- LOGO 放在左上角 -->
+          <a href="index2.html">
+            <img src="image/logo-08.jpg" alt="Logo" class="logo"
+          /></a>
+          <ul>
+            <li><a href="index3.html">成員介紹</a></li>
+            <li><a href="index4.html">路線地圖</a></li>
+            <li><a href="index7.html">日記短文</a></li>
+            <li><a href="index5.html">布條彩繪</a></li>
+            <li><a href="index6.html">旅遊繪畫</a></li>
+          </ul>
+        </nav>
+        <div id="banner">
+          <div class="title">
+            <h1 class="title01">Wal客<br />徒步環島</h1>
+            <p class="title02">給十八歲的自己，一個成年禮。</p>
+          </div>
+        </div>
+      </header>
+      <main id="main">
+        <div id="sentense">
+          <section>
+            <div class="traveldraw">
+              <img src="image/185129_0.jpg" alt="圖片1" /><br /><br /><br />
+              <img src="image/185127_0.jpg" alt="圖片2" /><br /><br /><br />
+              <img src="image/185122_0.jpg" width="374" height="273" alt="" />
+            </div>
+
+            <div class="traveldraw">
+              <img src="image/185125_0.jpg" width="306" height="413" alt="" />
+              <br /><br /><br />
+              <img src="image/185124_0.jpg" width="306" height="429" alt="" />
+              <br /><br /><br />
+              <img src="image/185121_0.jpg" width="311" height="371" alt="" />
+            </div>
+
+            <div class="traveldraw1">
+              <img src="image/185120_0.jpg" width="271" height="350" alt="" />
+              <br /><br /><br />
+              <img
+                src="image/185128_0.jpg"
+                width="342"
+                height="267"
+                alt=""
+              /><br /><br /><br />
+              <img src="image/185123_0.jpg" width="317" height="415" alt="" />
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <div class="footer">
+          <p>IG：walguest_18ywalktaiwan</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
